@@ -11,12 +11,6 @@ class Imagemagick < Formula
   head 'https://www.imagemagick.org/subversion/ImageMagick/trunk',
     :using => UnsafeSubversionDownloadStrategy
 
-  bottle do
-    sha1 "eccebca50501fc708368d1928643836c91667663" => :mavericks
-    sha1 "2ed358d45f1c9d7796acf7660d672c90ac225fc0" => :mountain_lion
-    sha1 "8f16c7fc477203e9a5c3d83b4c7c4106c81a29d4" => :lion
-  end
-
   option 'with-quantum-depth-8', 'Compile with a quantum depth of 8 bit'
   option 'with-quantum-depth-16', 'Compile with a quantum depth of 16 bit'
   option 'with-quantum-depth-32', 'Compile with a quantum depth of 32 bit'
